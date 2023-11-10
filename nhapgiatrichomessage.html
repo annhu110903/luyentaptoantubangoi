@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nhapgiatrichomessage</title>
+</head>
+<body>
+<script>
+    let login = prompt("Enter:");
+    let message = (login === 'Employee') ?
+    'Hello':
+    (login === 'Director') ?
+        'Greeting':
+        (login === '') ?
+            'No Login':
+            '';
+alert(message);
+</script>
+</body>
+</html>
